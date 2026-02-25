@@ -151,7 +151,7 @@ def parse_command():
         help='path to the output file. Default: public/citation.html'
     )
     parser.add_argument(
-        '--no-citation-box',
+        '-cb', '--no-citation-box',
         action='store_true',
         help='Disable citation box'
     )
